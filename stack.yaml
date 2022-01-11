@@ -1,0 +1,8 @@
+
+resolver:
+  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/16.yaml
+
+
+extra-deps:
+- servant-js-0.9.4.2
+- servant-lucid-0.9.0.4
