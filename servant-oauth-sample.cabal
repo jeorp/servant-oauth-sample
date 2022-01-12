@@ -32,9 +32,11 @@ library
       aeson
     , base >=4.7 && <5
     , bytestring
+    , containers
     , directory
     , hspec
     , http-api-data
+    , http-client
     , http-media
     , lens
     , lucid
@@ -44,7 +46,6 @@ library
     , servant-auth
     , servant-auth-server
     , servant-client
-    , servant-js
     , servant-lucid
     , servant-server
     , sqlite-simple
@@ -64,9 +65,11 @@ executable servant-oauth-sample-exe
       aeson
     , base >=4.7 && <5
     , bytestring
+    , containers
     , directory
     , hspec
     , http-api-data
+    , http-client
     , http-media
     , lens
     , lucid
@@ -76,7 +79,6 @@ executable servant-oauth-sample-exe
     , servant-auth
     , servant-auth-server
     , servant-client
-    , servant-js
     , servant-lucid
     , servant-oauth-sample
     , servant-server
@@ -98,9 +100,11 @@ test-suite servant-oauth-sample-test
       aeson
     , base >=4.7 && <5
     , bytestring
+    , containers
     , directory
     , hspec
     , http-api-data
+    , http-client
     , http-media
     , lens
     , lucid
@@ -110,7 +114,6 @@ test-suite servant-oauth-sample-test
     , servant-auth
     , servant-auth-server
     , servant-client
-    , servant-js
     , servant-lucid
     , servant-oauth-sample
     , servant-server

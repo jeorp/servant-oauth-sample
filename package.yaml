@@ -23,6 +23,7 @@ dependencies:
 - base >= 4.7 && < 5
 - text
 - bytestring
+- containers
 - time
 - directory
 - safe-exceptions
@@ -30,7 +31,6 @@ dependencies:
 - servant
 - servant-server
 - servant-client
-- servant-js
 - servant-auth
 - servant-auth-server
 - servant-lucid
@@ -41,6 +41,7 @@ dependencies:
 - lens
 - http-api-data
 - http-media
+- http-client
 - hspec
 
 library:
